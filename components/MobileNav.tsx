@@ -37,9 +37,9 @@ const MobileNav = ({ user }: MobileNavProps) => {
               src="/icons/logo.svg"
               width={34}
               height={34}
-              alt="MoFinance logo"
+              alt="TrustVault logo"
             />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">MoFinance</h1>
+            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">TrustVault</h1>
           </Link>
           <div className="mobilenav-sheet">
             <SheetClose asChild>
@@ -75,7 +75,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
 
             <Footer user={user} type="mobile" />
           </div>
-        </SheetContent>
+         </SheetContent>
       </Sheet>
     </section>
   )
