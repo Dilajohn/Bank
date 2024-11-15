@@ -90,9 +90,9 @@ const AuthForm = ({ type }: { type: string }) => {
               src="/icons/logo.svg"
               width={34}
               height={34}
-              alt="MoFinance logo"
+              alt="TrustVault logo"
             />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">MoFinance</h1>
+            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">TrustVault</h1> 
           </Link>
 
           <div className="flex flex-col gap-1 md:gap-3">
@@ -105,7 +105,7 @@ const AuthForm = ({ type }: { type: string }) => {
               }
               <p className="text-16 font-normal text-gray-600">
                 {user 
-                  ? 'Link your account to get started'
+                  ? 'Link your account to get started' 
                   : 'Please enter your details'
                 }
               </p>  
